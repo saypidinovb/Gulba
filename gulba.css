@@ -1,0 +1,15 @@
+html, body {
+  box-sizing: border-box;
+}
+.wrapper{
+  padding: 0;
+  margin: 0;
+  width: 1280px;
+  height: 100%;
+}
+.head {
+  display: flex;
+  width: auto;
+  height: 500px;
+  background-color: #f74c55;
+}
