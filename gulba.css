@@ -2,6 +2,14 @@ html, body {
   box-sizing: border-box;
   justify-content: center;
 }
+ body {
+
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+}
 .wrapper{
   background-color: rgb(243, 175, 175);
   padding: 0;
@@ -9,7 +17,7 @@ html, body {
   width: 1280px;
   height: 100%;
   justify-content: center;
-  
+  position: relative;
 }
 .head {
   display: flex;
@@ -20,6 +28,8 @@ html, body {
   position: relative;
 }
 .rainbow {
+  padding: 0;
+  margin: 0;
   position: relative;
 }
  .rainbow :last-child {
@@ -27,6 +37,8 @@ html, body {
   left: 40px;
 }
 .rb-2, .rb-1, .rb-3, .rb-4, .rb-5, .rb-6, .rb-7, .rb-8, .rb-9 {
+  width: auto;
+  height: auto;
   flex-direction: column-reverse;
   position: absolute; 
   top: 0;
@@ -58,4 +70,124 @@ letter-spacing: 2px;
 }
 a:hover {
   text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.hi {
+  position: absolute;
+  right: 250px;
+  bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  margin: 0;
+  padding: 40px 0 ;
+}
+.subtitle, h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+width: auto;
+height: 90px;
+font-size: 20px;
+line-height: 44px;
+font-weight: 300;
+color: #ffffff;
+margin: 0 0 50px 0;
+padding: 0;
+}
+.button {
+  height: 50px;
+  width: 154px;
+background-color: rgba(255,255,255,0.0);
+border: 2px solid #ffffff;
+
+font-family: OpenSans;
+font-size: 24.1px;
+line-height: 44px;
+font-weight: 400;
+color: #ffffff;
+}
+
+a, .button {
+  margin: 0;
+  padding: 0 5px;
+  height: 40px;
+  width: auto;
+}
+
+.introduction {
+ height: 450px;
+ width: 1280px;
+ background-color: #fff;
+ margin: 0;
+ padding: 0;
+ }
+.introduction-content {
+  padding: 70px;
+  margin: auto;
+  height: 300px;
+  width: 70%;
+  justify-content: flex-start;
+}
+
+.introduction-title, h2 {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans;
+  font-size: 30.1px;
+  line-height: 44px;
+  font-weight: 300;
+  color: #000000;
+
+}
+.introduction-text, p {
+  font-family: OpenSans;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #404040;
+}
+
+.introduction-rectangle, img {
+  height: 30px;
+  width: auto;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.services {
+  width: 1280px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+display: flex;
+border: 1px solid red;
+
+}
+.item-1 {
+  height: 300px;
+  width: 426px;
+  padding: 0;
+  margin: 0;
+  background-color: #404040;
+}
+.item-1-title {
+  margin: 0;
+  padding: auto;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+}
+.item-1-img {
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+.item-1-title, h3  {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans;
+font-size: 22.1px;
+line-height: 44px;
+font-weight: 400;
+color: #ffffff;
 }
